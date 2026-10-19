@@ -1,0 +1,8 @@
+{
+  "name": "AI Survey Instrument",
+  "description": "Comprehensive AI-powered survey instrument platform supporting Structured, Semi-Structured, and Unstructured interviews, real-time analytics, multilingual question generation with Philippine dialects, Likert scales, offline field sync, and one-click multi-format reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

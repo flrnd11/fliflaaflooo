@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+  header, footer, nav, button {
+    display: none !important;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+  .print\:border-none {
+    border: none !important;
+  }
+  .print\:bg-white {
+    background-color: #ffffff !important;
+  }
+  .print\:bg-slate-50 {
+    background-color: #f8fafc !important;
+  }
+  .print\:bg-slate-100 {
+    background-color: #f1f5f9 !important;
+  }
+  .print\:bg-slate-200 {
+    background-color: #e2e8f0 !important;
+  }
+  .print\:text-black {
+    color: #000000 !important;
+  }
+  .print\:text-slate-900 {
+    color: #0f172a !important;
+  }
+  .print\:text-slate-800 {
+    color: #1e293b !important;
+  }
+  .print\:text-slate-700 {
+    color: #334155 !important;
+  }
+  .print\:text-slate-600 {
+    color: #475569 !important;
+  }
+  .print\:text-indigo-700 {
+    color: #4338ca !important;
+  }
+  .print\:text-indigo-800 {
+    color: #3730a3 !important;
+  }
+  .print\:text-emerald-700 {
+    color: #047857 !important;
+  }
+  .print\:text-blue-700 {
+    color: #1d4ed8 !important;
+  }
+  .print\:border-slate-200 {
+    border-color: #e2e8f0 !important;
+  }
+  .print\:border-slate-300 {
+    border-color: #cbd5e1 !important;
+  }
+  .print\:border-slate-400 {
+    border-color: #94a3b8 !important;
+  }
+  .print\:divide-slate-200 > :not([hidden]) ~ :not([hidden]) {
+    border-color: #e2e8f0 !important;
+  }
+}
